@@ -50,7 +50,7 @@ export default function Login() {
             <div className='col-sm-12 d-flex'>
                 <div className='login-card card-block auth-body'>
                     <div className='authbox'>
-                        <h1 className='brand-logo text-center'>Instagram</h1>
+                        <h1 className='brand-logo text-center'>Socialify</h1>
                         <br/>
                         <div className='col-12'>
                             <form className='w-100' onSubmit={formik.handleSubmit}>

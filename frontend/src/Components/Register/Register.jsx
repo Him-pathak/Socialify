@@ -59,7 +59,7 @@ export default function Register() {
             <div className='col-sm-12 d-flex loginform'>
                 <div className='login-card card-block auth-body'>
                     <div className='authbox'>
-                        <h1 className='brand-logo text-center'>Instagram</h1>
+                        <h1 className='brand-logo text-center'>Socialify</h1>
                         <h3 className='text-secondary text-center'>Signup to see photos and videos from you friends</h3>
                         <br/>
                         <ToastContainer/>
