@@ -15,7 +15,7 @@ export default function ShowStoryModal({addStoryModal,setAddStoryModal}) {
         })
         .then(res=>res.json())
         .then(async data=>{
-            await axios.post('http://localhost:5000/api/addstory',{pic:data.url},config)
+            await axios.post(`${process.env.REACT_APP_BASE_URL}/api/addstory`,{pic:data.url},config)
             console.log("success")
             await setAddStoryModal(false)
 

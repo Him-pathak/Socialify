@@ -15,7 +15,7 @@ export default function Story() {
 
     useEffect(()=>{
         async function fetchData(){
-            const allStories = await axios.get('http://localhost:5000/api/getStory',config)
+            const allStories = await axios.get(`${process.env.REACT_APP_BASE_URL}/api/getStory`,config)
             // console.log("allStories",allStories);
             await setStories(allStories.data.userStories)
         }
